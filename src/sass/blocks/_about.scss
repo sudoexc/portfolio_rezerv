@@ -31,6 +31,9 @@
         margin-top: 20px;
         font-size: 14px;
         line-height: 21px;
+        &-myskill {
+            font-weight: 700;
+        }
     }
     &__skills {
         display: grid;
@@ -55,6 +58,7 @@
             margin-top: 6px;
             font-size: 12px;
             line-height: 18px;
+            width: 240px;
         }
     }
 }

@@ -4,12 +4,14 @@
     background: url('../img/main_bg.jpg') no-repeat 50%/cover;
     padding-top: 205px;
     &__title {
-        width: 535px;
+        width: 635px;
         margin-top: 10px;
+        color: #e6e5e5;
     }
     &__subtitle {
         position: relative;
         padding-left: 10px;
+        color: #e6e5e5;
         z-index: 2;
         @include before_circle;
     }
@@ -21,10 +23,10 @@
         width: 250px;
     }
     &__link {
-        color: #000;
+        color: #e6e5e5;
         font-weight: bold;
         &:hover {
-            color: #000;
+            color: #e6e5e5;
             text-decoration: none;
         }
     }
