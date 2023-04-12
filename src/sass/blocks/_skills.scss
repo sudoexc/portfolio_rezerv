@@ -8,8 +8,11 @@
         grid-auto-rows: minmax(270px, auto);
         gap: 13px;
     }
+    .title {
+        color: $text-color;
+    }
     &__item {
-        border: 1px solid black;
+        border: 1px solid $text-color;;
         padding: 30px 30px 25px 30px;
         &-img {
             display: flex;
@@ -19,12 +22,14 @@
         h3 {
             margin-top: 20px;
             margin-bottom: 0;
+            color: $text-color;
         }
         p {
             margin-top: 15px;
             margin-bottom: 0;
             font-size: 12px;
             line-height: 18px;
+            color: $text-color;
         }
     }
     &__ratings {
@@ -41,13 +46,14 @@
         }
         &-title {
             position: relative;
-            padding: 2px 0 0 13px;
+            color: $text-color;
 
             @include before_circle;
         }
         &-counter {
             font-size: 14px;
             line-height: 21px;
+            color: $text-color;
         }
         &-line {
             width: 350px;

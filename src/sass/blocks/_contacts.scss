@@ -21,7 +21,6 @@
     }
     &__title {
         position: relative;
-        padding: 1px 0 0 12px;
         @include before_circle;
     }
     &__text, &__social {
@@ -69,6 +68,9 @@
         input {
             margin-right: 10px;
         }
+        span {
+            color: $text-color;
+        }
     }
     &__input {
         position: relative;
@@ -77,6 +79,14 @@
             height: 100%;
             padding: 0 20px;
             font-size: 12px;
+        }
+        label {
+            background: none;
+            color: $text-color;
+            font-weight: 800;
+            position: absolute;
+            top: -50%;
+            left: -3%;
         }
     }
     &__textarea {
@@ -88,6 +98,14 @@
             resize: none;
             padding: 20px;
             font-size: 12px;
+        }
+        label {
+            background: none;
+            color: $text-color;
+            font-weight: 800;
+            position: relative;
+            top: -115%;
+            left: -1%;
         }
     }
     &__btn {

@@ -15,6 +15,7 @@
         grid-template: repeat(2, minmax(21px, auto)) / repeat(2, auto);
         row-gap: 5px;
         padding-left: 25px;
+        color: $text-color;
         &:before {
             content: '';
             width: 15px;

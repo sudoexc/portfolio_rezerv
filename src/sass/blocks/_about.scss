@@ -18,13 +18,15 @@
     }
     &__descr {
         padding-top: 6px;
+        color: $text-color;
         .divider {
             margin: 0;
         }
     }
     &__title {
         position: relative;
-        padding: 1px 0 0 12px;
+        padding: 1px 0 0 0px;
+        color: $text-color;
         @include before_circle;
     }
     &__text {
@@ -37,6 +39,7 @@
     }
     &__skills {
         display: grid;
+        color: $text-color;
         grid-template: repeat(2, minmax(115px, auto)) / repeat(2, 260px);
         grid-auto-rows: 1fr;
         column-gap: 50px;
@@ -48,7 +51,7 @@
         }
         &-circle {
             position: relative;
-            padding: 15px 0 0 15px;
+            padding: 5px 0 0 18px;
             @include before_circle;
             &:before {
                 top: 0;

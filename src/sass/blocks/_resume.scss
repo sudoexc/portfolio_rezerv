@@ -6,10 +6,14 @@
         grid-template-columns: repeat(2, 425px);
         column-gap: 135px;
     }
+    .title {
+        color: $text-color;
+    }
     &__column {
         &-title {
             position: relative;
             padding-left: 35px;
+            color: $text-color;
             &:before {
                 content: '';
                 position: absolute;
@@ -33,20 +37,21 @@
                     position: absolute;
                     top: -16px;
                     left: 0;
-                    background-color: #000;
+                    background-color: $text-color;;
                 }
             }
         }
     }
     &__item {
         position: relative;
+        color: $text-color;
         &:before {
             content: '';
             height: 1px;
             width: 45px;
             position: absolute;
             top: 68px;
-            background-color: #000;
+            background-color: $text-color;;
         }
         &-head {
             position: relative;

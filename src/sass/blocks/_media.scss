@@ -207,6 +207,14 @@
             grid-template: 45px 190px 45px / repeat(2, 250px);
         }
     }
+    &__item {
+        img {
+            filter: grayscale(50%);
+            &:hover{
+                transform: none;
+            }
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -225,6 +233,9 @@
     }
     .hamburger {
         right: 20px;
+        span {
+            background-color: #fff;
+        }
     }
     .menu {
         &__block {
@@ -233,7 +244,7 @@
         }
     }
     .promo {
-        background: url('../img/main_bg.jpg') no-repeat 57%/cover;
+        background: url('../img/phone.jpg') no-repeat 57%/cover;
         &__btns {
             margin-top: 30px;
         }
